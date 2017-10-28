@@ -3,14 +3,6 @@ from geometry import vector2d
 #
 # body.py
 #
-# CSCI 121: The Boids
-# Project 3 Option #2
-# Fall 2017
-#
-# This defines the 'body' class, which all the simulation objects
-# inherit from. These objects are minimal---they have no motivation,
-# and don't move (have no velocity). 
-#
 
 class body:
 
@@ -28,8 +20,7 @@ class body:
 
 
     def color(self):
-        # Blue is our generic color.  Let's us know that
-        # we forgot to override the color.
+        # Blue is the default color.
         return "#000080"
 
 

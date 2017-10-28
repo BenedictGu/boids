@@ -1,13 +1,6 @@
 from geometry import vector2d
 from bird import bird
 
-# EXERCISE 2
-#
-# . add a 'chaser' subclass of 'bird' 
-# . make a 'chaser.compute_chase' method that pays attention to self.world.pointer()
-# . override 'steer' to use 'compute_chase' instead of 'compute_cohere'
-#
-
 class chaser(bird):
 
 
@@ -25,7 +18,7 @@ class chaser(bird):
         align = self.compute_mimic()
         group = self.compute_chase()
 
-        # Compute a weighted average of these concerns' directions.
+        # Compute a weighted average of concerns' directions.
         accel = vector2d()
         accel = accel + repel.direction() * self.AVOID_COEFF
         accel = accel + align.direction() * self.MIMIC_COEFF

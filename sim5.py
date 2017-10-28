@@ -5,13 +5,6 @@ from flock import flock
 from herder import herder
 from bird import bird
 
-#
-# CSCI 121: The Boids
-# Project 3 Option #2 Exercise 5
-# Fall 2017
-#
-# This script runs the simulation for EXERCISE 5.
-#
 
 
 # Initialize the world and its window.

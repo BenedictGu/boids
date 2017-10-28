@@ -4,8 +4,6 @@ from flock import flock
 from geometry import bounds
 from bird import bird
 
-#Exercise 9 asks to fixiate the camera to one body in the flock.
-#The major change of the code is by changing the bound of the world so that the camera is fixiated on a certain bird
 
 
 # Initialize the world and its window.

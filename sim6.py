@@ -4,8 +4,6 @@ from world import world
 from fireworks import fireworks
 
 
-#Exercise 6. fireworks
-#
 
 #iniate the world
 w = world(60.0,45.0,800,600,topology='open')

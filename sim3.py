@@ -5,13 +5,6 @@ from leader import leader
 from follower import follower
 from geometry import point2d,vector2d
 
-#
-# CSCI 121: The Boids
-# Project 3 Option #2 Exercise 3
-# Fall 2017
-#
-# This script runs the simulation for EXERCISE 3.
-#
 
 # Initialize the world and its window.
 w = world(60.0,45.0,800,600,topology='wrapped')

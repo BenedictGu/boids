@@ -1,16 +1,6 @@
 from body import body
 from geometry import vector2d
 
-# EXERCISE 1
-#
-# . complete __init__ so it sets self.age and self.lifetime
-# . override 'step' so that it instead:
-#      . increases self.age
-#      . removes itself from self.world if lifetime has been exceeded (using
-#           the world's 'remove_body' method)
-# . override the 'color' method. If you want, a nice effect is to have the
-#     color vary with age.
-#
 
 class trail(body):
 

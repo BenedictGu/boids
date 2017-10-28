@@ -1,12 +1,6 @@
 from bird import bird
 from geometry import vector2d, point2d
 
-# EXERCISE 5
-#
-# . override MAXIMUM_SPEED
-# . override color
-# . override steer
-# . maybe change the AGILITY and MAXIMUM_SPEED of bird
 
 class herder(bird):
 

@@ -4,45 +4,6 @@ import math
 #
 # geometry.py
 #
-# CSCI 121: The Boids
-# Project 3 Option #2
-# Fall 2017
-#
-# This defines three classes that we use to track bodies that
-# occupy the world of our Boid simulation. Bodies inhabit a 2-D
-# world at a position, have a velocity (a heading and a speed),
-# and they are compelled (by their behavior) to change their
-# heading. They also live within the bounds of the world.
-#
-# We define the classes
-#
-#   point2d: for tracking a location of a body
-#   vector2d: for tracking the velocity and acceleration of a body; 
-#     also used to talk about positions of bodies relative to others
-#   bounds: used to track a rectangular region in the world
-#
-# These are described more carefully in the project description.
-# The key methods are the "arithmetic" operations we define for
-# working with point2d and vector2d. They are the following:
-#
-#   p + v : a point that is at vector offset v from a point p
-#   v + w : a vector that is a combination of vectors v and w
-#   p - q : the vector offset that thakes you from point q to point p
-#   -v : a vector in the opposite heading of vector v
-#   v * s : a vector whose length is scaled up by the float factor s
-#   v / s : a vector whose length is scaled down by the float factor s
-#   v - w : vector difference (same as v + (-w))
-#
-# We also support:
-#
-#   v.magnitude() : the length of vector v
-#   v.direction() : a unit-length vector in the direction of v
-#   v.dot(w) : the dot product of v with w (see the description, a float)
-#   v.cross(w) : the cross product (or turn) of v with w (a float)
-#
-# Finally, we have a 'bounds' class for operating on points within a 2-D
-# rectangular region.
-#
 
 class point2d:
 

@@ -1,15 +1,6 @@
 #
 # system.py
 #
-# CSCI 121: The Boids
-# Project 3 Option #2
-# Fall 2017
-#
-# This defines the 'system' class which holds a collection of bodies
-# associated with a 'world'.
-#
-# This class is also used as the superclass of 'flock'.
-#
 
 class system:
 

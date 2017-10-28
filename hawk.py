@@ -1,12 +1,6 @@
 from bird import bird
 from geometry import vector2d, point2d
 
-# EXERCISE 4
-#
-# . redefine MAXIMUM_SPEED
-# . override color
-# . override steer
-
 EPSILON = 0.000001
 
 class hawk(bird):

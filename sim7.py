@@ -4,10 +4,6 @@ from flock import flock
 from mass import mass
 from geometry import bounds
 
-#Exercise 7 asks to establish a system of masses whose acceleration
-#is solely dependent on the rest of the masses in its world.
-#This simulation uses mass.py
-
 
 # Initialize the world and its window.
 wi = 60.0
